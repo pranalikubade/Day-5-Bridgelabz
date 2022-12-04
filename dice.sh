@@ -1,1 +1,3 @@
- echo $((RANDOM%6))
+#!/bin/bash -x
+dice=$(( RANDOM % 6 + 1 ))
+echo "Dice Number:" $dice
